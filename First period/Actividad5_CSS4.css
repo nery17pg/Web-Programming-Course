@@ -1,0 +1,59 @@
+body {
+    font-family: cursive;
+    background: linear-gradient(#ffaebe, #8b5ee8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0000(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"] {
+    font-family: cursive;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.genero label {
+    font-weight: bold;
+}
+button {
+    background-color: #5c024b;
+    font-family: cursive;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button[type="reset"] {
+    background-color: #fe1977;
+    font-family: cursive;
+}
+button:hover {
+    opacity: 0.8;
+}
